@@ -1,0 +1,58 @@
+#contact {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.header-link,
+.header-logo {
+  color: currentColor;
+}
+
+.header-menu:last-child .header-link:nth-child(2)::after {
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-info {
+  width: 1060px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 2.4rem;
+  text-shadow: 0 0 0 currentColor;
+  line-height: 1.2;
+}
+
+.contact-info-list:first-child {
+  margin-bottom: 30px;
+}
+
+.contact-info-link {
+  transition: all 0.3s ease;
+}
+.contact-info-link:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=contact.css.map */
