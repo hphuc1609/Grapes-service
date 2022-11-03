@@ -32,10 +32,20 @@
   flex-direction: column;
   padding: 0 15px;
   text-align: center;
-  font-family: var(--secondary-font);
-  font-size: 2.4rem;
+  font-family: var(--primary-font);
+  font-size: 2.7rem;
   text-shadow: 0 0 0 currentColor;
   line-height: 1.2;
+}
+@media screen and (max-width: 1023px) {
+  .contact-info {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 734px) {
+  .contact-info {
+    font-size: 2.2rem;
+  }
 }
 
 .contact-info-list:first-child {
@@ -43,7 +53,7 @@
 }
 
 .contact-info-link {
-  transition: all 0.3s ease;
+  transition: var(--transition);
 }
 .contact-info-link:hover {
   opacity: 0.8;
@@ -53,6 +63,12 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.modal-menu__item:nth-child(5)::after {
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=contact.css.map */

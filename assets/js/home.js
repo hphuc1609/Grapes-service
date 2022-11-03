@@ -1,8 +1,6 @@
 const header = document.querySelector(".header");
-const projects = document.getElementById("projects");
 const projectItems = document.querySelectorAll(".project-item");
 
-//  When the user scrolls down, hide the header. When the user scrolls up, show the header
 let scrollUp = window.pageYOffset;
 window.onscroll = function () {
   let scrollDown = window.pageYOffset;
@@ -16,10 +14,19 @@ window.onscroll = function () {
     }
   } else {
     header.style.top = "-75px";
-    //  Show the projects
+
     projectItems.forEach((item) => {
-      if (item.offsetTop <= scrollDown + 550) {
-        item.classList.add("project-show");
+      // Hiển thị project item trên PC
+      if (window.innerWidth >= 1024) {
+        if (item.offsetTop <= scrollDown + 550) {
+          item.classList.add("show");
+        }
+      }
+      // Hiển thị project item trên mobile và tablet
+      if (window.innerWidth < 1024) {
+        if (item.offsetTop <= scrollDown + 650) {
+          item.classList.add("show");
+        }
       }
     });
   }

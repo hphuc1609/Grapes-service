@@ -1,15 +1,26 @@
 #home {
   background-color: #f8f8f8;
+  color: #f8f8f8;
 }
 
 .hero {
   height: 100vh;
   background: url("https://www.grapesdesign.com/wp-content/uploads/2021/11/Grapes_Gooseisland04.jpg") no-repeat center/cover;
 }
+@media screen and (max-width: 1023px) {
+  .hero {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 734px) {
+  .hero {
+    height: 600px;
+  }
+}
 
 .hero-image {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   opacity: 0;
 }
 
@@ -18,11 +29,28 @@
   margin-top: 25px;
   padding: 0 25px;
 }
+@media screen and (max-width: 1023px) {
+  .projects {
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+}
 
 .project-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px;
+}
+@media screen and (max-width: 1023px) {
+  .project-list {
+    grid-gap: 10px;
+  }
+}
+@media screen and (max-width: 734px) {
+  .project-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
 }
 
 .project-item {
@@ -42,13 +70,19 @@
   transform: scale(1.1);
 }
 
-.project-show {
+.project-item.show {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
-.project-show:nth-child(2n+2) {
+.project-item.show:nth-child(2n+2) {
   transition-delay: 0.2s;
+}
+
+.project-item.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(60px);
 }
 
 .project-item-image {
@@ -69,25 +103,31 @@
   background-color: rgba(0, 0, 0, 0.7);
   color: #f8f8f8;
   transition: all 0.5s ease;
+  letter-spacing: 3px;
   opacity: 0;
 }
 
 .project-item-name {
   font-size: 2.2rem;
   font-weight: 500;
-  letter-spacing: 3px;
-  line-height: 1.3;
-  font-family: var(--secondary-font);
+  text-align: center;
+  font-family: var(--primary-font);
   margin-bottom: 8px;
 }
 
 .project-item-place {
   font-size: 1.3rem;
-  letter-spacing: 3px;
+  font-family: var(--secondary-font);
 }
 
 .footer-inner {
   color: var(--primary-color);
+}
+
+.modal-menu__item:nth-child(1)::after {
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=home.css.map */

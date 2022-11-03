@@ -7,8 +7,9 @@
 :root {
   --primary-color: #0c1b2a;
   --secondary-color: #ff950d;
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Georgia", serif;
+  --primary-font: "Roboto";
+  --secondary-font: sans-serif;
+  --transition: all 0.3s ease;
 }
 
 html {
@@ -20,18 +21,10 @@ body {
   font-family: var(--primary-font);
   font-size: 1.6rem;
   line-height: 1.5;
-}
 
-body::-webkit-scrollbar {
-  width: 0.5rem;
-}
-
-body::-webkit-scrollbar-track {
-  background: #f8f8f8;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.7);
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a {

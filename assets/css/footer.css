@@ -11,12 +11,23 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
+  font-family: var(--secondary-font);
+}
+@media screen and (max-width: 1023px) {
+  .footer-inner {
+    width: 100%;
+  }
 }
 
 .footer-media {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+}
+@media screen and (max-width: 734px) {
+  .footer-media {
+    display: none;
+  }
 }
 
 .footer-media-item {
@@ -29,7 +40,7 @@
   display: block;
   width: 0;
   border-bottom: 1px solid;
-  transition: all 0.3s ease;
+  transition: var(--transition);
   visibility: hidden;
 }
 .footer-media-item:hover::after {

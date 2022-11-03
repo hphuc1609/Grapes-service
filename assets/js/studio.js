@@ -1,5 +1,7 @@
 const navItems = document.querySelectorAll(".studio-nav-item");
 const studioNav = document.querySelector(".studio-nav");
+const header = document.querySelector(".header");
+const goToTop = document.querySelector(".go-to-top");
 
 navItems.forEach((item) => {
   item.addEventListener("click", function () {
@@ -46,3 +48,24 @@ window.addEventListener("scroll", function () {
     studioNav.classList.remove("hide");
   }
 });
+
+let scrollUp = window.pageYOffset;
+window.addEventListener("scroll", function () {
+  let scrollDown = window.pageYOffset;
+
+  if (window.innerWidth < 768) {
+    if (scrollUp > scrollDown) {
+      header.style.top = "0";
+    } else {
+      header.style.top = "-75px";
+    }
+  }
+  scrollUp = scrollDown;
+});
+
+goToTop.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
