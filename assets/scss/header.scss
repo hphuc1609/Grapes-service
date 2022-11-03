@@ -77,20 +77,28 @@
 .header-logo {
   color: #fff;
   font-size: 3.2rem;
-  text-transform: uppercase;
-  text-shadow: 0 0 0 currentColor;
-  letter-spacing: 6px;
+  text-shadow: 0 0 1px currentColor;
+  letter-spacing: 2px;
 
   @media screen and (max-width: 734px) {
-    font-size: 2.8rem;
-    text-shadow: none;
-    letter-spacing: 4px;
+    flex: 1;
+    text-align: center;
   }
 }
 
+.header-logo-text {
+  display: inline-block;
+}
+
 // Menu mobile
+.header-hamburger {
+  position: relative;
+  top: 0;
+  right: 10px;
+}
+
 .header-hamburger-line {
-  width: 25px;
+  width: 30px;
   height: 2px;
   background-color: currentColor;
   margin: 7px 0;
@@ -130,7 +138,7 @@
 .modal-menu__logo {
   flex: 1;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   letter-spacing: 3px;
   text-shadow: 0 0 1px currentColor;
 

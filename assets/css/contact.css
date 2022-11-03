@@ -11,10 +11,9 @@
   color: currentColor;
 }
 
-.header-menu:last-child .header-link:nth-child(2)::after {
+.header-menu:nth-last-of-type(2) .header-link:last-child::after {
   width: 100%;
   visibility: visible;
-  opacity: 1;
 }
 
 .content {
