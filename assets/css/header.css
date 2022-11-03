@@ -164,10 +164,4 @@
   transition: var(--transition);
 }
 
-@media screen and (min-width: 768px) {
-  .hide-on-medium {
-    display: none;
-  }
-}
-
 /*# sourceMappingURL=header.css.map */

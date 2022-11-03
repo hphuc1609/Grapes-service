@@ -1,6 +1,7 @@
 #studio {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  position: relative;
 }
 
 .header-link,
@@ -35,11 +36,6 @@
   &:nth-child(2) {
     margin-top: 30px;
   }
-
-  @media screen and (max-width: 739px) {
-    font-size: 2rem;
-    text-align: left;
-  }
 }
 
 .studio-category,
@@ -56,10 +52,6 @@
   &:hover {
     opacity: 0.7;
   }
-
-  @media screen and (max-width: 739px) {
-    font-size: 2.5rem;
-  }
 }
 
 .studio-paragraph + .studio-paragraph {
@@ -69,11 +61,6 @@
 .studio-paragraph-text {
   font-size: 2.4rem;
   line-height: 1.1;
-
-  @media screen and (max-width: 739px) {
-    font-size: 2rem;
-    line-height: 1.3;
-  }
 }
 
 .studio-paragraph-author {
@@ -119,10 +106,6 @@
 
 .studio-nav-item + .studio-nav-item {
   margin-left: 40px;
-
-  @media screen and (max-width: 739px) {
-    margin-left: 20px;
-  }
 }
 
 .studio-nav-link {
@@ -130,22 +113,6 @@
   text-transform: uppercase;
   font-family: var(--secondary-font);
   letter-spacing: 3px;
-
-  @media screen and (max-width: 739px) {
-    font-size: 1rem;
-  }
-}
-
-.go-to-top {
-  display: none;
-
-  @media screen and (max-width: 1023px) {
-    display: block;
-    font-size: 2.3rem;
-    position: relative;
-    top: -8px;
-    right: 20px;
-  }
 }
 
 .modal-menu__item:nth-child(2) {
@@ -153,5 +120,53 @@
     width: 100%;
     visibility: visible;
     opacity: 1;
+  }
+}
+
+// Mobile
+@media screen and (max-width: 739px) {
+  .studio-intro-text {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .studio-menu-link {
+    font-size: 2.5rem;
+  }
+
+  .studio-category,
+  .studio-testimonals {
+    margin-top: 200px;
+  }
+
+  .studio-paragraph + .studio-paragraph {
+    margin-top: 200px;
+  }
+
+  .studio-paragraph-text {
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .studio-nav-item + .studio-nav-item {
+    margin-left: 20px;
+  }
+
+  .studio-nav-link {
+    font-size: 1rem;
+  }
+
+  .go-to-top {
+    display: block;
+    width: 30px;
+    font-size: 2.3rem;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+  }
+
+  .studio-paragraph-author {
+    margin-top: 30px;
   }
 }

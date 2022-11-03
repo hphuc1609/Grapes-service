@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Paradise</title>
+
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+
+<body>
+    <div id="contact">
+        <header class="header"></header>
+        <main class="content">
+            <section class="contact-info">
+                <ul class="contact-info-list">
+                    <li class="contact-info-text">Paradise Project</li>
+                    <li class="contact-info-text">
+                        Ho Chi Minh, Vietnam
+                    </li>
+                </ul>
+                <ul class="contact-info-list">
+                    <li class="contact-info-item">
+                        <a href="tel:(0)123 456 789" class="contact-info-link">+84 (0)123 456 789</a>
+                    </li>
+                    <li class="contact-info-item">
+                        <a href="mailto:phucluu1609@gmail.com" class="contact-info-link">phucluu1609@gmail.com</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="form">
+                <form action="#" class="form-contact">
+                    <div class="form-contact-intro">
+                        <h3 class="form-contact-title">Contact Me</h3>
+                        <span class="form-contact-text">
+                            I am always open to discussing new projects, creative ideas or opportunities to be part of
+                            your visions. Feel free to contact me.
+                        </span>
+                    </div>
+                    <div class="form-contact-group">
+                        <label for="name" class="form-contact-label">Name</label>
+                        <input type="text" id="name" class="form-contact-input" placeholder="Your name" required>
+                    </div>
+                    <div class="form-contact-group">
+                        <label for="email" class="form-contact-label">Email</label>
+                        <input type="email" id="email" class="form-contact-input" placeholder="Your email" required>
+                    </div>
+                    <div class="form-contact-group">
+                        <label for="message" class="form-contact-label">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" class="form-contact-input"
+                            placeholder="Your message" required></textarea>
+                    </div>
+                    <button class="form-contact-btn" onclick="sendForm()">Send</button>
+                </form>
+            </section>
+            <div class="alert">
+                <span class="alert-text"></span>
+                <button class="alert-btn" onclick="closeAlert()">OK</button>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+    <!-- Modal menu mobile -->
+    <div class="modal-menu">
+    </div>
+
+    <script src="../app.js"></script>
+    <script src="../assets/js/contact.js"></script>
+    <script src="../assets/js/modalMenu.js"></script>
+</body>
+
+</html>

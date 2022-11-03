@@ -47,3 +47,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (min-width: 768px) {
+  .hide-on-medium {
+    display: none;
+  }
+}
