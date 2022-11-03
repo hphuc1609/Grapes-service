@@ -3,6 +3,18 @@
   color: #f8f8f8;
 }
 
+.bg-header {
+  background-color: #f8f8f8;
+  color: var(--primary-color);
+}
+.bg-header .header-link,
+.bg-header .header-logo {
+  color: currentColor;
+}
+.bg-header .header-hamburger-line {
+  background-color: currentColor;
+}
+
 .hero {
   height: 100vh;
   background: url("https://www.grapesdesign.com/wp-content/uploads/2021/11/Grapes_Gooseisland04.jpg") no-repeat center/cover;
@@ -12,7 +24,7 @@
     height: 800px;
   }
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .hero {
     height: 600px;
   }
@@ -46,7 +58,7 @@
     grid-gap: 10px;
   }
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .view-list {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;

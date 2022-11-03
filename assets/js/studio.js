@@ -12,6 +12,7 @@ navItems.forEach((item) => {
   });
 });
 
+let scrollUp = window.pageYOffset;
 window.addEventListener("scroll", function () {
   // lấy vị trí section about
   const studioAbout = document.querySelector("#about");
@@ -47,10 +48,7 @@ window.addEventListener("scroll", function () {
   } else {
     studioNav.classList.remove("hide");
   }
-});
 
-let scrollUp = window.pageYOffset;
-window.addEventListener("scroll", function () {
   let scrollDown = window.pageYOffset;
 
   if (window.innerWidth < 768) {

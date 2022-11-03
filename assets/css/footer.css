@@ -24,7 +24,7 @@
   align-items: center;
   text-transform: uppercase;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .footer-media {
     display: none;
   }

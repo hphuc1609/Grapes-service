@@ -34,7 +34,7 @@
 .studio-intro-text:nth-child(2) {
   margin-top: 30px;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .studio-intro-text {
     font-size: 2rem;
     text-align: left;
@@ -55,7 +55,7 @@
 .studio-menu-link:hover {
   opacity: 0.7;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .studio-menu-link {
     font-size: 2.5rem;
   }
@@ -69,7 +69,7 @@
   font-size: 2.4rem;
   line-height: 1.1;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .studio-paragraph-text {
     font-size: 2rem;
     line-height: 1.3;
@@ -118,7 +118,7 @@
 .studio-nav-item + .studio-nav-item {
   margin-left: 40px;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .studio-nav-item + .studio-nav-item {
     margin-left: 20px;
   }
@@ -130,7 +130,7 @@
   font-family: var(--secondary-font);
   letter-spacing: 3px;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .studio-nav-link {
     font-size: 1rem;
   }

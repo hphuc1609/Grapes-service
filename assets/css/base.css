@@ -32,6 +32,12 @@ a {
   color: currentColor;
 }
 
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
 }

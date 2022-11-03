@@ -37,20 +37,44 @@
             </div>
         </header>
         <main class="content">
-            <section id="contact" class="contact-info">
+            <section class="contact-info">
                 <ul class="contact-info-list">
                     <li class="contact-info-text">Paradise Project</li>
-                    <li class="contact-info-text">Ho Chi Minh, City</li>
+                    <li class="contact-info-text">
+                        Ho Chi Minh, Vietnam
+                    </li>
                 </ul>
                 <ul class="contact-info-list">
                     <li class="contact-info-item">
                         <a href="tel:(0)123 456 789" class="contact-info-link">+84 (0)123 456 789</a>
                     </li>
                     <li class="contact-info-item">
-                        <a href="mailto:phucluu1609@gmail.com" class="contact-info-link">paradise@restaurant.com</a>
+                        <a href="mailto:phucluu1609@gmail.com" class="contact-info-link">phucluu1609@gmail.com</a>
                     </li>
                 </ul>
             </section>
+            <form action="#" class="form-contact">
+                <div class="form-contact-intro">
+                    <h2 class="form-contact-title">Contact Us</h2>
+                    <span class="form-contact-text">
+                        We are always ready to serve you with the best quality and service.
+                    </span>
+                </div>
+                <div class="form-contact-group">
+                    <label for="name" class="form-contact-label">Name</label>
+                    <input type="text" id="name" class="form-contact-input" placeholder="Your name" required>
+                </div>
+                <div class="form-contact-group">
+                    <label for="email" class="form-contact-label">Email</label>
+                    <input type="email" id="email" class="form-contact-input" placeholder="Your email" required>
+                </div>
+                <div class="form-contact-group">
+                    <label for="message" class="form-contact-label">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="form-contact-input"
+                        placeholder="Your message" required></textarea>
+                </div>
+                <button class="form-contact-btn">Send</button>
+            </form>
         </main>
         <footer class="footer">
             <div class="footer-inner">
@@ -101,6 +125,7 @@
         </ul>
     </div>
 
+    <script src="../assets/js/scrollY.js"></script>
     <script src="../assets/js/modalMenu.js"></script>
 </body>
 

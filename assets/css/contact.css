@@ -1,8 +1,6 @@
 #contact {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  width: 100%;
-  height: 100vh;
   position: relative;
 }
 
@@ -16,20 +14,15 @@
   visibility: visible;
 }
 
-.content {
-  width: 100%;
-  height: 100%;
-}
-
 .contact-info {
   width: 1060px;
   height: 100%;
   margin: 0 auto;
+  padding: 182px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 15px;
   text-align: center;
   font-family: var(--primary-font);
   font-size: 2.7rem;
@@ -41,7 +34,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .contact-info {
     font-size: 2.2rem;
   }
@@ -58,10 +51,76 @@
   opacity: 0.8;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.form-contact {
+  width: 830px;
+  height: 100%;
+  margin: 80px auto;
+  padding: 0 15px;
+  text-align: center;
+  font-size: 2.7rem;
+  text-shadow: 0 0 0 currentColor;
+}
+@media screen and (max-width: 1023px) {
+  .form-contact {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 739px) {
+  .form-contact {
+    font-size: 2.2rem;
+  }
+}
+
+.form-contact-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-contact-group + .form-contact-group {
+  margin-top: 30px;
+}
+
+.form-contact-intro {
+  margin-bottom: 30px;
+}
+
+.form-contact-text {
+  display: block;
+  font-size: 2rem;
+}
+
+.form-contact-label {
+  flex: 1 1 2%;
+}
+
+.form-contact-input {
+  flex: 4;
+  padding: 16px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+.form-contact-btn {
+  margin-top: 30px;
+  padding: 16px 32px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 2.2rem;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: var(--transition);
+}
+.form-contact-btn:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 739px) {
+  .form-contact-btn {
+    font-size: 1.6rem;
+  }
 }
 
 .modal-menu__item:nth-child(5)::after {

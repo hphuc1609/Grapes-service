@@ -5,22 +5,10 @@
   transition: all 0.5s ease-in-out;
   z-index: 1;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .header {
     height: 60px;
   }
-}
-
-.bg-header {
-  background-color: #f8f8f8;
-  color: var(--primary-color);
-}
-.bg-header .header-link,
-.bg-header .header-logo {
-  color: currentColor;
-}
-.bg-header .header-hamburger-line {
-  background-color: currentColor;
 }
 
 .header-inner {
@@ -43,7 +31,7 @@
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .header-menu {
     display: none;
   }
@@ -79,7 +67,7 @@
   text-shadow: 0 0 1px currentColor;
   letter-spacing: 2px;
 }
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 739px) {
   .header-logo {
     flex: 1;
     text-align: center;
