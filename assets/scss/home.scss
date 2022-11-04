@@ -48,6 +48,17 @@
   }
 }
 
+.views-title {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-shadow: 0 0 0 currentColor;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  color: var(--primary-color);
+}
+
 .view-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

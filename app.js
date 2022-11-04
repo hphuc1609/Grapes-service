@@ -21,3 +21,11 @@ fetch("../layouts/modalMenu.html")
   .then((data) => {
     document.querySelector(".modal-menu").innerHTML = data;
   });
+
+fetch("../pages/news.html")
+  .then((response) => {
+    return response.text();
+  })
+  .then((data) => {
+    document.querySelector(".news").innerHTML = data;
+  });
