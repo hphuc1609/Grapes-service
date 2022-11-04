@@ -22,10 +22,6 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
-
-  @media screen and (max-width: 739px) {
-    display: none;
-  }
 }
 
 .footer-media-item {
@@ -56,4 +52,20 @@
   text-transform: uppercase;
   display: flex;
   align-items: center;
+}
+
+// Mobile
+@media screen and (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .footer-inner {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .footer-author {
+    text-transform: none;
+  }
 }

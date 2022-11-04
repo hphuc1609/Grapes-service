@@ -24,11 +24,6 @@
   align-items: center;
   text-transform: uppercase;
 }
-@media screen and (max-width: 739px) {
-  .footer-media {
-    display: none;
-  }
-}
 
 .footer-media-item {
   margin-right: 50px;
@@ -54,6 +49,19 @@
   text-transform: uppercase;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .footer-inner {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .footer-author {
+    text-transform: none;
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */
