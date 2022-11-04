@@ -5,11 +5,6 @@
   transition: all 0.5s ease-in-out;
   z-index: 1;
 }
-@media screen and (max-width: 739px) {
-  .header {
-    height: 60px;
-  }
-}
 
 .header-inner {
   width: 1060px;
@@ -21,20 +16,10 @@
   justify-content: space-between;
   font-family: var(--secondary-font);
 }
-@media screen and (max-width: 1023px) {
-  .header-inner {
-    width: 100%;
-  }
-}
 
 .header-menu {
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 739px) {
-  .header-menu {
-    display: none;
-  }
 }
 
 .header-link {
@@ -63,15 +48,9 @@
 
 .header-logo {
   color: #fff;
-  font-size: 3.2rem;
+  font-size: 2.7rem;
   text-shadow: 0 0 1px currentColor;
   letter-spacing: 2px;
-}
-@media screen and (max-width: 739px) {
-  .header-logo {
-    flex: 1;
-    text-align: center;
-  }
 }
 
 .header-logo-text {
@@ -125,7 +104,7 @@
 .modal-menu__logo {
   flex: 1;
   text-align: center;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   letter-spacing: 3px;
   text-shadow: 0 0 1px currentColor;
 }
@@ -133,12 +112,15 @@
   display: inline-block;
 }
 
-.modal-menu__list {
+.modal-menu__body {
+  height: 500px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+}
+
+.modal-menu__list {
+  text-align: center;
 }
 
 .modal-menu__item::after {
@@ -155,13 +137,74 @@
 }
 
 .modal-menu__link {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: var(--secondary-font);
   letter-spacing: 2px;
   line-height: 1.3;
   text-transform: uppercase;
   color: #000;
   transition: var(--transition);
+}
+
+.modal-menu__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-menu__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-menu__media-item {
+  margin: 0 10px;
+}
+
+.modal-menu__media-link {
+  transition: var(--transition);
+}
+.modal-menu__media-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 1px solid;
+  transition: var(--transition);
+  visibility: hidden;
+}
+.modal-menu__media-link:hover::after {
+  width: 100%;
+  visibility: visible;
+}
+
+@media screen and (min-width: 768px) {
+  .hide-on-medium {
+    display: none;
+  }
+}
+@media screen and (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .header-inner {
+    width: 100%;
+  }
+  .header {
+    height: 60px;
+  }
+  .header-logo {
+    flex: 1;
+    text-align: center;
+  }
+  .header-hamburger {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

@@ -1,6 +1,8 @@
 const header = document.querySelector(".header");
-const formContact = document.querySelector(".contact-form");
+const formContact = document.querySelector(".form-contact");
 const sendBtn = document.querySelector(".form-contact-btn");
+const alertBtn = document.querySelector(".contact-alert-btn");
+const alertForm = document.querySelector(".contact-alert");
 
 let scrollUp = window.pageYOffset;
 window.addEventListener("scroll", function () {
@@ -17,25 +19,17 @@ window.addEventListener("scroll", function () {
 });
 
 function sendForm() {
-  // lưu vào local storage
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
   let message = document.getElementById("message").value;
-  let contact = {
-    name: name,
-    email: email,
-    message: message,
-  };
-  localStorage.setItem("contact", JSON.stringify(contact));
-
-  // reset form
-  formContact.reset("");
-
-  // hiển thị thông báo
-  let alert = document.querySelector(".alert");
-  alert.innerHTML = "Cảm ơn bạn đã gửi phản hồi cho chúng tôi!";
-  alert.style.display = "block";
-  setTimeout(function () {
-    alert.style.display = "none";
-  }, 3000);
+  if (name && email && message) {
+    if (email.includes("@" && "." && "com")) {
+      alertForm.classList.add("show");
+    }
+  }
+  formContact.reset();
 }
+
+alertBtn.addEventListener("click", function () {
+  alertForm.classList.remove("show");
+});
