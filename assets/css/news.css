@@ -34,6 +34,12 @@
   transform: translateX(400px);
   font-family: var(--secondary-font);
 }
+@media screen and (max-width: 768px) {
+  .news-content {
+    width: 100%;
+    transform: translateX(100%);
+  }
+}
 
 .news-head {
   width: 100%;
