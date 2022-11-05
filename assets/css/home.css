@@ -152,7 +152,7 @@
   color: var(--primary-color);
 }
 
-.modal-menu__item:nth-child(1)::after {
+.modal-menu__item:first-child .modal-menu__link::after {
   width: 100%;
   visibility: visible;
   opacity: 1;

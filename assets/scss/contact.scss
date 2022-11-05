@@ -109,7 +109,7 @@
   }
 }
 
-.modal-menu__item:nth-child(5) {
+.modal-menu__item:nth-child(5) .modal-menu__link {
   &::after {
     width: 100%;
     visibility: visible;

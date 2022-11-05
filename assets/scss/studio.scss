@@ -115,7 +115,7 @@
   letter-spacing: 3px;
 }
 
-.modal-menu__item:nth-child(2) {
+.modal-menu__item:nth-child(2) .modal-menu__link {
   &::after {
     width: 100%;
     visibility: visible;

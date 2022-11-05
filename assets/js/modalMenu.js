@@ -13,6 +13,7 @@ function closeMenu() {
 menuLinks.forEach((link) => {
   link.onclick = function () {
     modalMenu.classList.remove("active");
+    link.classList.add("active");
   };
 });
 
