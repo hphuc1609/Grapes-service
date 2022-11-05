@@ -38,6 +38,7 @@
   .news-content {
     width: 100%;
     transform: translateX(100%);
+    padding: 15px;
   }
 }
 

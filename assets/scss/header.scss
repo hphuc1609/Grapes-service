@@ -107,7 +107,7 @@
 .modal-menu__logo {
   flex: 1;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2rem;
   letter-spacing: 3px;
   text-shadow: 0 0 1px currentColor;
 
@@ -116,7 +116,7 @@
   }
 }
 .modal-menu__body {
-  height: 500px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@
 }
 
 .modal-menu__link {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-family: var(--secondary-font);
   letter-spacing: 2px;
   line-height: 1.3;
@@ -169,7 +169,7 @@
 }
 
 .modal-menu__media-item {
-  margin: 0 10px;
+  padding: 0 20px;
 }
 
 .modal-menu__media-link {
