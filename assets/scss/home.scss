@@ -91,6 +91,10 @@
   &:hover .view-item-image {
     transform: scale(1.1);
   }
+
+  @media screen and (max-width: 1023px) {
+    height: 100%;
+  }
 }
 
 .view-item.show {

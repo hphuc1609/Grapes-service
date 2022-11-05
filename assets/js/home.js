@@ -16,15 +16,21 @@ window.onscroll = function () {
     header.style.top = "-75px";
 
     viewItems.forEach((item) => {
-      // Hiển thị view item trên PC
+      // Hiển thị views trên PC
       if (window.innerWidth >= 1024) {
         if (item.offsetTop <= scrollDown + 550) {
           item.classList.add("show");
         }
       }
-      // Hiển thị view item trên mobile và tablet
-      if (window.innerWidth < 1024) {
-        if (item.offsetTop <= scrollDown + 650) {
+      // Hiển thị views trên tablet
+      if (window.innerWidth > 768 && window.innerWidth < 1024) {
+        if (item.offsetTop <= scrollDown + 800) {
+          item.classList.add("show");
+        }
+      }
+      // Hiển thị views trên mobile
+      if (window.innerWidth <= 768) {
+        if (item.offsetTop <= scrollDown + 600) {
           item.classList.add("show");
         }
       }
