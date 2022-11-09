@@ -22,7 +22,7 @@ fetch("../layouts/modalMenu.html")
     document.querySelector(".modal-menu").innerHTML = data;
   });
 
-fetch("../pages/news.html")
+fetch("../layouts/news.html")
   .then((response) => {
     return response.text();
   })
