@@ -1,5 +1,5 @@
 const header = document.querySelector(".header");
-const viewItems = document.querySelectorAll(".view-item");
+const projectItems = document.querySelectorAll(".project-item");
 
 let scrollUp = window.pageYOffset;
 window.onscroll = function () {
@@ -15,22 +15,22 @@ window.onscroll = function () {
   } else {
     header.style.top = "-75px";
 
-    viewItems.forEach((item) => {
-      // Hiển thị views trên PC
+    projectItems.forEach((item) => {
+      // PC
       if (window.innerWidth >= 1024) {
-        if (item.offsetTop <= scrollDown + 550) {
+        if (item.offsetTop - 500 < scrollDown) {
           item.classList.add("show");
         }
       }
-      // Hiển thị views trên tablet
-      if (window.innerWidth > 768 && window.innerWidth < 1024) {
-        if (item.offsetTop <= scrollDown + 800) {
+      // Tablet
+      else if (window.innerWidth >= 768) {
+        if (item.offsetTop - 300 <= scrollDown + 500) {
           item.classList.add("show");
         }
       }
-      // Hiển thị views trên mobile
-      if (window.innerWidth <= 768) {
-        if (item.offsetTop <= scrollDown + 600) {
+      // Mobile
+      else if (window.innerWidth < 768) {
+        if (item.offsetTop - 200 <= scrollDown + 500) {
           item.classList.add("show");
         }
       }

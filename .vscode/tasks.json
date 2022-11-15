@@ -4,34 +4,24 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run sass header",
+      "label": "Run sass",
       "type": "shell",
-      "command": "sass assets/scss/header.scss assets/css/header.css --watch"
-    },
-    {
-      "label": "Run sass footer",
-      "type": "shell",
-      "command": "sass assets/scss/footer.scss assets/css/footer.css --watch"
+      "command": "sass assets/sass/app.scss assets/css/app.css --watch"
     },
     {
       "label": "Run sass home",
       "type": "shell",
-      "command": "sass assets/scss/home.scss assets/css/home.css --watch"
+      "command": "sass assets/sass/home.scss assets/css/home.css --watch"
     },
     {
       "label": "Run sass studio",
       "type": "shell",
-      "command": "sass assets/scss/studio.scss assets/css/studio.css --watch"
+      "command": "sass assets/sass/studio.scss assets/css/studio.css --watch"
     },
     {
       "label": "Run sass contact",
       "type": "shell",
-      "command": "sass assets/scss/contact.scss assets/css/contact.css --watch"
-    },
-    {
-      "label": "Run sass news",
-      "type": "shell",
-      "command": "sass assets/scss/news.scss assets/css/news.css --watch"
+      "command": "sass assets/sass/contact.scss assets/css/contact.css --watch"
     }
   ]
 }

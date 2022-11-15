@@ -61,9 +61,19 @@ window.addEventListener("scroll", function () {
   scrollUp = scrollDown;
 });
 
-goToTop.onclick = function () {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-};
+window.addEventListener("scroll", function () {
+  if (window.pageYOffset > 300) {
+    goToTop.style.opacity = "1";
+    goToTop.style.visibility = "visible";
+
+    goToTop.onclick = function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+  } else {
+    goToTop.style.opacity = "0";
+    goToTop.style.visibility = "hidden";
+  }
+});

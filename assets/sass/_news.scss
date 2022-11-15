@@ -14,11 +14,12 @@
 }
 
 .news-active {
-  background: rgba(214, 214, 214, 0.7);
+  background: rgb(214, 214, 214, 0.7);
   visibility: visible;
-}
-.news-active .news-content {
-  transform: translateX(0);
+
+  .news-content {
+    transform: translateX(0);
+  }
 }
 
 .news-content {
@@ -33,9 +34,8 @@
   transition: all 0.5s ease-in-out;
   transform: translateX(400px);
   font-family: var(--secondary-font);
-}
-@media screen and (max-width: 768px) {
-  .news-content {
+
+  @media screen and (max-width: 739px) {
     width: 100%;
     transform: translateX(100%);
     padding: 15px;
@@ -93,5 +93,3 @@
 .news-item-link {
   margin-top: 12px;
 }
-
-/*# sourceMappingURL=news.css.map */
