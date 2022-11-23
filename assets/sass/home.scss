@@ -2,6 +2,7 @@
 
 #home {
   background-color: #f8f8f8;
+  color: var(--white-color);
 }
 
 .bg-header {
@@ -179,8 +180,7 @@
   text-align: center;
   font-size: 2.4rem;
   letter-spacing: 4px;
-  text-shadow: 0 0 0 var(--primary-color);
-  font-family: var(--secondary-font);
+  text-shadow: 0 0 1px var(--primary-color);
 
   @media screen and (max-width: 739px) {
     font-size: 2rem;
@@ -218,6 +218,11 @@
   position: absolute;
   top: 50%;
   z-index: 10;
+
+  @media screen and (max-width: 739px) {
+    font-size: 1.6rem;
+    padding: 5px 12px;
+  }
 }
 
 .modal-btn-prev {
@@ -287,7 +292,7 @@
   text-align: center;
 
   @media screen and (max-width: 739px) {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
   }
 }
@@ -298,7 +303,7 @@
   opacity: 0.5;
 
   @media screen and (max-width: 739px) {
-    font-size: 1rem;
+    display: none;
   }
 }
 

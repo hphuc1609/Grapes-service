@@ -7,7 +7,7 @@ export default function createModal() {
       <div class="modal-overlay">
         <div class="modal-container">
           <div class="modal-header">
-            <span class="modal-logo">Paradise</span>
+            <span class="modal-logo">G . 96</span>
             <span class="modal-close">&times;</span>
           </div>
           <div class="modal-body">
