@@ -1,0 +1,436 @@
+[
+  {
+    "name": "Old compton brasserie",
+    "images": [
+      {
+        "src": "./assets/images/old_compton/image1.jpg",
+        "alt": "Old compton brasserie"
+      },
+      {
+        "src": "./assets/images/old_compton/image2.jpg",
+        "alt": "Old compton brasserie"
+      },
+      {
+        "src": "./assets/images/old_compton/image3.jpg",
+        "alt": "Old compton brasserie"
+      },
+      {
+        "src": "./assets/images/old_compton/image4.jpg",
+        "alt": "Old compton brasserie"
+      },
+      {
+        "src": "./assets/images/old_compton/image5.jpg",
+        "alt": "Old compton brasserie"
+      },
+      {
+        "src": "./assets/images/old_compton/image6.jpg",
+        "alt": "Old compton brasserie"
+      },
+      {
+        "src": "./assets/images/old_compton/image7.jpg",
+        "alt": "Old compton brasserie"
+      }
+    ],
+    "description": "In August 2018 Old Compton Brasserie opened it’s doors to the vibrant streets of Soho with an avant garde design evoking a nostalgic nod to soho bohemia.  Working alongside local artists, Paradise concept was to strip back the existing shell exposing all ductwork, aged plaster and brick and to insert a floating mezzanine giving customers an authentic dining experience. With the use of delicate marble mosaic floors, soft leather upholstery and warm lighting techniques create an elegant transition from day to night with the unique concrete horse shoe bar becoming centre stage for cocktail theatrics."
+  },
+  {
+    "name": "Cherry galore",
+    "images": [
+      {
+        "src": "./assets/images/cherry/image1.jpg",
+        "alt": "Cherry Galore"
+      },
+      {
+        "src": "./assets/images/cherry/image2.jpg",
+        "alt": "Cherry Galore"
+      },
+      {
+        "src": "./assets/images/cherry/image3.jpg",
+        "alt": "Cherry Galore"
+      },
+      {
+        "src": "./assets/images/cherry/image4.jpg",
+        "alt": "Cherry Galore"
+      }
+    ],
+    "description": "Retro Party bar in Stoke Newington"
+  },
+  {
+    "name": "Tequila mockingbird",
+    "images": [
+      {
+        "src": "./assets/images/tequila/image1.jpg",
+        "alt": "Tequila Mockingbird "
+      },
+      {
+        "src": "./assets/images/tequila/image2.jpg",
+        "alt": "Tequila Mockingbird "
+      },
+      {
+        "src": "./assets/images/tequila/image3.jpg",
+        "alt": "Tequila Mockingbird "
+      },
+      {
+        "src": "./assets/images/tequila/image4.jpg",
+        "alt": "Tequila Mockingbird "
+      },
+      {
+        "src": "./assets/images/tequila/image5.jpg",
+        "alt": "Tequila Mockingbird "
+      },
+      {
+        "src": "./assets/images/tequila/image6.jpg",
+        "alt": "Tequila Mockingbird "
+      }
+    ],
+    "description": "Coming soon..."
+  },
+  {
+    "name": "Goose island",
+    "images": [
+      {
+        "src": "./assets/images/goose_island/image1.jpg",
+        "alt": "Goose Island"
+      },
+      {
+        "src": "./assets/images/goose_island/image2.jpg",
+        "alt": "Goose Island"
+      },
+      {
+        "src": "./assets/images/goose_island/image3.jpg",
+        "alt": "Goose Island"
+      }
+    ],
+    "description": "Coming soon..."
+  },
+  {
+    "name": "Disrepute",
+    "images": [
+      {
+        "src": "./assets/images/disrepute/image1.jpeg",
+        "alt": "Disrepute"
+      },
+      {
+        "src": "./assets/images/disrepute/image2.jpeg",
+        "alt": "Disrepute"
+      },
+      {
+        "src": "./assets/images/disrepute/image3.jpeg",
+        "alt": "Disrepute"
+      },
+      {
+        "src": "./assets/images/disrepute/image4.jpeg",
+        "alt": "Disrepute"
+      },
+      {
+        "src": "./assets/images/disrepute/image5.jpeg",
+        "alt": "Disrepute"
+      }
+    ],
+    "description": "The bar once known as the Kingly Club, has had its fair share of scandal: it was one of the places cabinet minister John Profumo met call girl Christine Keeler in 1961, and has hosted the likes of Marilyn Monroe, Peter O’Toole and Audrey Hepburn. Its latest development sees it transformed into Disrepute or D.R.P, a members’ only bar incorporating a vaulted den of jewel-coloured upholstery, marble floors and polished brass accents. The concept originates from the sixties heyday, playing on its glamorous heritage with a avant garde twist creating cosy nooks for couples or pink vaulted ceilings for larger groups. Paradise worked with local branding consultancy Two Times Elliot who developed the complete rebrand of Disrepute to reflect the opulence of the interior concept. Branded notepaper encourages you to pass notes to strangers across the bar, whilst a logo embossed punchy green suede menu holder adds a delicate touch to the exclusive Soho basement bar."
+  },
+  {
+    "name": "Savage garden",
+    "images": [
+      {
+        "src": "./assets/images/savage/image1.jpg",
+        "alt": "Savage Garden"
+      },
+      {
+        "src": "./assets/images/savage/image2.jpg",
+        "alt": "Savage Garden"
+      },
+      {
+        "src": "./assets/images/savage/image3.jpg",
+        "alt": "Savage Garden"
+      },
+      {
+        "src": "./assets/images/savage/image4.jpg",
+        "alt": "Savage Garden"
+      },
+      {
+        "src": "./assets/images/savage/image5.jpg",
+        "alt": "Savage Garden"
+      },
+      {
+        "src": "./assets/images/savage/image6.jpg",
+        "alt": "Savage Garden"
+      },
+      {
+        "src": "./assets/images/savage/image7.jpg",
+        "alt": "Savage Garden"
+      }
+    ],
+    "description": "DoubleTree by Hilton Hotel's new wildly elegant cocktail bar Savage Garden will submerge you intro its atmospheric British character. Paradise have transformed the Hilton rooftop into a twisted cocktail bar that captures a unique concept uniting the wilderness of organic elements with 360 vistas overlooking some of London's most iconic landmarks. The journey into Savage Garden is brutal, yet sultry, urban yet opulent with reflective and savaged surfaces contrasting with plush velvet finishes and marbleised floors. The extravagant cocktail bar encapsulates the ethos that is Savage Garden with glazed crackled lava stone top, illuminated marble back bar and hand drawn glass ceiling panels combining to create one of London's most theatrical rooftop destinations."
+  },
+  {
+    "name": "Tekzone, seftridges",
+    "images": [
+      {
+        "src": "./assets/images/tekzone/image1.jpg",
+        "alt": "Teckzone"
+      },
+      {
+        "src": "./assets/images/tekzone/image2.jpg",
+        "alt": "Teckzone"
+      },
+      {
+        "src": "./assets/images/tekzone/image3.jpg",
+        "alt": "Teckzone"
+      },
+      {
+        "src": "./assets/images/tekzone/image4.jpg",
+        "alt": "Teckzone"
+      }
+    ],
+    "description": "Coming soon..."
+  },
+  {
+    "name": "Babel",
+    "images": [
+      {
+        "src": "./assets/images/babel/image1.jpg",
+        "alt": "Babel"
+      },
+      {
+        "src": "./assets/images/babel/image2.jpg",
+        "alt": "Babel"
+      },
+      {
+        "src": "./assets/images/babel/image3.jpg",
+        "alt": "Babel"
+      },
+      {
+        "src": "./assets/images/babel/image4.jpg",
+        "alt": "Babel"
+      },
+      {
+        "src": "./assets/images/babel/image5.jpg",
+        "alt": "Babel"
+      }
+    ],
+    "description": "Known as one of the hottest cocktail bars in London – Babel opened its doors in October 2017 in Cheltenham’s Brewery Quarter to draw the social buzz of London to Cheltenham with its sleek yet relaxed and informal space to drink and dine. Paradise approach was to create am impactful bar scheme using deconstructed artwork and intricate back bar framework making the bar take centre stage. Casual eclectic seating and colourful bespoke pendants unify a contemporary bohemian look and feel creating a flexible venue for any occasion."
+  },
+  {
+    "name": "The colony hq",
+    "images": [
+      {
+        "src": "./assets/images/the_colony/image1.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image2.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image3.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image4.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image5.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image6.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image7.jpg",
+        "alt": "The Colony HQ"
+      },
+      {
+        "src": "./assets/images/the_colony/image8.jpg",
+        "alt": "The Colony HQ"
+      }
+    ],
+    "description": "The Colony HQ members will find this exclusive enclave perfect for working, client entertaining and confidential off site meetings and will feel at home among its polished interiors.Entrepreneurs will appreciate its contemporary with state of the art hardware and exclusive boardroom hire allowing space to grow and bring together colleagues and clients for business breakfast and lunch meetings. The Colony HQ offers a members lounge incorporating an artful blend of business practicality and stylish indulgence creating a flexible interior for clients to relax and be able to network socially with like-minded professionals."
+  },
+  {
+    "name": "Dirty martini",
+    "images": [
+      {
+        "src": "./assets/images/dirty_martini/image1.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image2.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image3.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image4.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image5.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image6.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image7.jpg",
+        "alt": "Dirty Martini"
+      },
+      {
+        "src": "./assets/images/dirty_martini/image8.jpg",
+        "alt": "Dirty Martini"
+      }
+    ],
+    "description": "Approached by CG restaurant in 2009, Paradise embraced the Dirty Martini strategy and developed a trendy and sophisticated design strategy to launch in various sites in the heart of London. Our studio ethos was to develop the language of the `Dirty Martini’ but give each new venue a subtle twist whether through commissioning new artwork, designing a new lighting feature or introduce current trends through innovative design ideas. The new addition to the Dirty Martini brand features sophisticated touches of leather, copper and marble amongst bespoke fitted lights and iconic artwork, such as the famous neon wings, to maintain the classic elegant touch that is evident throughout all of our designs for Dirty Martini UK. Since the concept launch in 2009, Dirty Martini has grown to 16 sites throughout the UK and is one of the most popular cocktail brands in London. "
+  },
+  {
+    "name": "Macchiato",
+    "images": [
+      {
+        "src": "./assets/images/macchiato/image1.jpg",
+        "alt": "Macchiato"
+      },
+      {
+        "src": "./assets/images/macchiato/image2.jpg",
+        "alt": "Macchiato"
+      },
+      {
+        "src": "./assets/images/macchiato/image3.jpg",
+        "alt": "Macchiato"
+      }
+    ],
+    "description": "Coming soon..."
+  },
+  {
+    "name": "The vintry",
+    "images": [
+      {
+        "src": "./assets/images/the_vintry/image1.jpg",
+        "alt": "The Vintry"
+      },
+      {
+        "src": "./assets/images/the_vintry/image2.jpg",
+        "alt": "The Vintry"
+      },
+      {
+        "src": "./assets/images/the_vintry/image3.jpg",
+        "alt": "The Vintry"
+      },
+      {
+        "src": "./assets/images/the_vintry/image4.jpg",
+        "alt": "The Vintry"
+      },
+      {
+        "src": "./assets/images/the_vintry/image5.jpg",
+        "alt": "The Vintry"
+      },
+      {
+        "src": "./assets/images/the_vintry/image6.jpg",
+        "alt": "The Vintry"
+      },
+      {
+        "src": "./assets/images/the_vintry/image7.jpg",
+        "alt": "The Vintry"
+      }
+    ],
+    "description": "Fullers Smith & Turner approached Paradise with the challenge of revitalising a dark and uninviting central London pub and transforming it into an energetic and atmospheric bar and restaurant. Paradise divided the interior into high level drinking space, a mezzanine for all day dining and a hireable room for wine tasting. Using dynamic timber ceiling rafts, bold amber neon and vibrant heritage colours, the design creates a characteristic yet modern feel for the busy central London worker. In contrast to the ground floor restaurant and wine tasting room, the basement bar is rich in colour with warm mood lighting for a comfortable speakeasy atmosphere."
+  },
+  {
+    "name": "Kupp",
+    "images": [
+      {
+        "src": "./assets/images/kupp/image1.jpg",
+        "alt": "Kupp"
+      },
+      {
+        "src": "./assets/images/kupp/image2.jpg",
+        "alt": "Kupp"
+      },
+      {
+        "src": "./assets/images/kupp/image3.jpg",
+        "alt": "Kupp"
+      },
+      {
+        "src": "./assets/images/kupp/image4.jpg",
+        "alt": "Kupp"
+      },
+      {
+        "src": "./assets/images/kupp/image5.jpg",
+        "alt": "Kupp"
+      },
+      {
+        "src": "./assets/images/kupp/image6.jpg",
+        "alt": "Kupp"
+      },
+      {
+        "src": "./assets/images/kupp/image7.jpg",
+        "alt": "Kupp"
+      }
+    ],
+    "description": "Honesty and simplicity have been our inspiration as well as a desire to use Scandinavian ingredients in a British way. We want to cultivate a casual all day style of dining, grazing, drinking and socialising. Many of our dishes are perfect for sharing because this is the way we love to dine out with our friends and family. This is the food we love. Our culture. Shared. We wanted to create a quality all day casual dining concept with a strong focus on speciality coffee. We wanted to embrace Scandinavian design and cuisine and, at the same time, to share a little of what we enjoy and how we enjoy it in the UK.Our story begins in Stockholm. Arriving in late March with rivers still frozen, clear blue skies, clean crisp air, amazing food, culture, design and so much innovation – this was to be the first of many trips to the Nordic region and the beginning of a beautiful journey that led us to the KuPP concept."
+  },
+  {
+    "name": "Colombe",
+    "images": [
+      {
+        "src": "./assets/images/colombe/image1.jpg",
+        "alt": "Colombe"
+      },
+      {
+        "src": "./assets/images/colombe/image2.jpg",
+        "alt": "Colombe"
+      },
+      {
+        "src": "./assets/images/colombe/image3.jpg",
+        "alt": "Colombe"
+      },
+      {
+        "src": "./assets/images/colombe/image4.jpg",
+        "alt": "Colombe"
+      },
+      {
+        "src": "./assets/images/colombe/image5.jpg",
+        "alt": "Colombe"
+      },
+      {
+        "src": "./assets/images/colombe/image6.jpg",
+        "alt": "Colombe"
+      }
+    ],
+    "description": "Coming soon..."
+  },
+  {
+    "name": "Decimo",
+    "images": [
+      {
+        "src": "./assets/images/decimo/image1.jpg",
+        "alt": "Decimo"
+      },
+      {
+        "src": "./assets/images/decimo/image2.jpg",
+        "alt": "Decimo"
+      },
+      {
+        "src": "./assets/images/decimo/image3.jpg",
+        "alt": "Decimo"
+      },
+      {
+        "src": "./assets/images/decimo/image4.jpg",
+        "alt": "Decimo"
+      },
+      {
+        "src": "./assets/images/decimo/image5.jpg",
+        "alt": "Decimo"
+      },
+      {
+        "src": "./assets/images/decimo/image6.jpg",
+        "alt": "Decimo"
+      }
+    ],
+    "description": "Michelin-starred Chef Peter Sanchez-Iglesias merges the Spanish cuisine of his family with his love of Mexico for his debut London restaurant, Decimo. Expect lots of flavour - Gambas Rojas, mezcal cocktails, and a dramatically different tortilla. Situated on the 10th floor of the Standard, London, Decimo is uniquely positioned with floor-to-ceiling windows and dramatic views across the London skyline and is accessible by our exterior red-pill lift."
+  }
+]

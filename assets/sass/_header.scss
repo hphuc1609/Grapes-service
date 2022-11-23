@@ -27,7 +27,7 @@
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: 3px;
-  color: #f8f8f8;
+  color: var(--white-color);
 
   &::after {
     content: "";
@@ -50,9 +50,9 @@
 
 .header-logo {
   color: #fff;
-  font-size: 2.7rem;
+  font-size: 3rem;
   text-shadow: 0 0 1px currentColor;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .header-logo-text {
@@ -73,7 +73,7 @@
   margin: 7px 0;
 }
 
-.modal-menu {
+.menu-mobile {
   position: fixed;
   top: 0;
   left: 0;
@@ -86,25 +86,25 @@
   transition: var(--transition);
 }
 
-.modal-menu.show {
+.menu-mobile.show {
   opacity: 1;
   visibility: visible;
 }
 
-.modal-menu__header {
+.menu-mobile__head {
   width: 100%;
   height: 60px;
   display: flex;
   align-items: center;
 }
 
-.modal-menu__close {
+.menu-mobile__close {
   font-size: 1.6rem;
   color: rgba(0, 0, 0, 0.7);
   margin-left: 25px;
 }
 
-.modal-menu__logo {
+.menu-mobile__logo {
   flex: 1;
   text-align: center;
   font-size: 2rem;
@@ -115,14 +115,14 @@
     display: inline-block;
   }
 }
-.modal-menu__body {
+.menu-mobile__body {
   height: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.modal-menu__list {
+.menu-mobile__list {
   text-align: center;
   height: 100%;
   display: flex;
@@ -130,11 +130,11 @@
   justify-content: center;
 }
 
-.modal-menu__item + .modal-menu__item {
+.menu-mobile__item + .menu-mobile__item {
   margin-top: 5px;
 }
 
-.modal-menu__link {
+.menu-mobile__link {
   font-size: 2.7rem;
   font-family: var(--secondary-font);
   letter-spacing: 2px;
@@ -159,7 +159,7 @@
   }
 }
 
-.modal-menu__footer {
+.menu-mobile__footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -170,17 +170,17 @@
   justify-content: center;
 }
 
-.modal-menu__media {
+.menu-mobile__media {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.modal-menu__media-item {
+.menu-mobile__media-item {
   padding: 0 20px;
 }
 
-.modal-menu__media-link {
+.menu-mobile__media-link {
   transition: var(--transition);
 
   &::after {
@@ -222,6 +222,7 @@
   }
 
   .header-logo {
+    font-size: 2.5rem;
     flex: 1;
     text-align: center;
   }

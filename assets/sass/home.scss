@@ -2,12 +2,11 @@
 
 #home {
   background-color: #f8f8f8;
-  color: #f8f8f8;
 }
 
 .bg-header {
   background-color: #f8f8f8;
-  color: var(--primary-color);
+  color: var(--black-color);
 
   .header-link,
   .header-logo {
@@ -19,9 +18,9 @@
   }
 }
 
-.hero {
+.hero-banner {
   height: 100vh;
-  background: url("https://www.grapesdesign.com/wp-content/uploads/2021/11/Grapes_Gooseisland04.jpg")
+  background: url("https://s7d2.scene7.com/is/image/ritzcarlton/vierz-d-bar-50788811?$XlargeViewport100pct$")
     no-repeat center / cover;
 
   @media screen and (max-width: 1023px) {
@@ -33,13 +32,7 @@
   }
 }
 
-.hero-image {
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-.project-list {
+.gallery-list {
   width: 100%;
   padding: 0 25px;
   margin-top: 25px;
@@ -55,7 +48,7 @@
   }
 }
 
-.project-item {
+.gallery-item {
   width: 100%;
   height: 400px;
   transition: all 1s ease;
@@ -64,7 +57,7 @@
   opacity: 0;
   visibility: hidden;
 
-  &:hover .project-item-link {
+  &:hover .gallery-item-link {
     opacity: 1;
   }
 
@@ -73,7 +66,7 @@
   }
 }
 
-.project-item.show {
+.gallery-item.show {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -83,11 +76,11 @@
   }
 }
 
-.project-item-image {
+.gallery-item-image {
   transition: all 0.5s ease;
 }
 
-.project-item-link {
+.gallery-item-link {
   position: absolute;
   top: 0;
   left: 0;
@@ -103,29 +96,244 @@
   transition: all 0.5s ease;
   letter-spacing: 3px;
   opacity: 0;
+  cursor: pointer;
 }
 
-.project-item-title {
+.gallery-item-title {
   font-size: 2.5rem;
   font-weight: 500;
   text-align: center;
   font-family: var(--primary-font);
   margin-bottom: 8px;
+
+  @media screen and (max-width: 1023px) {
+    font-size: 1.6rem;
+  }
 }
 
-.project-item-place {
+.gallery-item-place {
   font-size: 1.4rem;
   font-family: var(--secondary-font);
+
+  @media screen and (max-width: 1023px) {
+    font-size: 1.2rem;
+  }
 }
 
-.footer-inner {
-  color: var(--primary-color);
-}
-
-.modal-menu__item:first-child .modal-menu__link {
+.menu-mobile__item:first-child .menu-mobile__link {
   &::after {
     width: 100%;
     visibility: visible;
     opacity: 1;
+  }
+}
+
+// Modal
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--white-color);
+  transition: all 1s ease-in-out;
+  transform: translateY(-100%);
+  opacity: 0.8;
+  visibility: hidden;
+  z-index: 999;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+
+    .modal-btn-prev {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .modal-btn-next {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+.modal-container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding: 15px;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.modal-logo {
+  flex: 1;
+  text-align: center;
+  font-size: 2.4rem;
+  letter-spacing: 4px;
+  text-shadow: 0 0 0 var(--primary-color);
+  font-family: var(--secondary-font);
+
+  @media screen and (max-width: 739px) {
+    font-size: 2rem;
+  }
+}
+
+.modal-close {
+  font-size: 3rem;
+  font-weight: 600;
+  color: inherit;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: var(--transition);
+  z-index: 10;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.modal-body {
+  position: relative;
+}
+
+.modal-btn {
+  font-size: 2rem;
+  text-align: center;
+  color: inherit;
+  background: var(--white-color);
+  border-radius: 50%;
+  padding: 8px 15px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 1s ease-in-out 0.3s;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+.modal-btn-prev {
+  left: 0px;
+  transform: translate(100%, -50%);
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modal-btn-next {
+  right: 0;
+  transform: translate(-100%, -50%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modal-wrapper {
+  max-width: 880px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+
+  @media screen and (max-width: 739px) {
+    max-width: 100%;
+  }
+}
+
+.modal-slide {
+  width: 100%;
+  height: 500px;
+  display: flex;
+
+  @media screen and (max-width: 739px) {
+    height: 300px;
+  }
+}
+
+.modal-item {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+  user-select: none;
+}
+
+.modal-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.modal-info {
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+
+  @media screen and (max-width: 739px) {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+.modal-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+
+  @media screen and (max-width: 739px) {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+.modal-scroll-down {
+  display: inline-block;
+  color: inherit;
+  opacity: 0.5;
+
+  @media screen and (max-width: 739px) {
+    font-size: 1rem;
+  }
+}
+
+.modal-scroll-down-icon {
+  animation: scroll-down 1s ease-in-out infinite;
+
+  @keyframes scroll-down {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
+
+.modal-content {
+  overflow: hidden;
+}
+
+.modal-desc {
+  margin-top: 180px;
+  margin-bottom: 180px;
+  font-size: 2.4rem;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 0 0 var(--primary-color);
+
+  @media screen and (max-width: 739px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+    line-height: 25px;
   }
 }

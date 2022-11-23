@@ -14,12 +14,12 @@ fetch("../layouts/footer.html")
     document.querySelector(".footer").innerHTML = data;
   });
 
-fetch("../layouts/modalMenu.html")
+fetch("../layouts/menuMobile.html")
   .then((response) => {
     return response.text();
   })
   .then((data) => {
-    document.querySelector(".modal-menu").innerHTML = data;
+    document.querySelector(".menu-mobile").innerHTML = data;
   });
 
 fetch("../layouts/news.html")

@@ -200,7 +200,7 @@
   opacity: 0.8;
 }
 
-.modal-menu__item:nth-child(5) .modal-menu__link::after {
+.menu-mobile__item:nth-child(5) .menu-mobile__link::after {
   width: 100%;
   visibility: visible;
   opacity: 1;

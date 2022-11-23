@@ -1,5 +1,9 @@
 const header = document.querySelector(".header");
-const projectItems = document.querySelectorAll(".project-item");
+const galleryItems = document.querySelectorAll(".gallery-item");
+const btnPrev = document.querySelector(".modal-prev");
+const btnNext = document.querySelector(".modal-next");
+const btnClose = document.querySelector(".modal-close");
+const slideItems = document.querySelectorAll(".modal-slide-item");
 
 let scrollUp = window.pageYOffset;
 window.onscroll = function () {
@@ -15,7 +19,7 @@ window.onscroll = function () {
   } else {
     header.style.top = "-75px";
 
-    projectItems.forEach((item) => {
+    galleryItems.forEach((item) => {
       // PC
       if (window.innerWidth >= 1024) {
         if (item.offsetTop - 500 < scrollDown) {
