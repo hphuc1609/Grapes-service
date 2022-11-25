@@ -9,7 +9,7 @@ let scrollUp = window.pageYOffset;
 window.onscroll = function () {
   let scrollDown = window.pageYOffset;
 
-  if (scrollUp > scrollDown && scrollUp > 0) {
+  if (scrollUp > scrollDown) {
     header.style.top = "0";
     if (scrollDown > 500) {
       header.classList.add("bg-header");
