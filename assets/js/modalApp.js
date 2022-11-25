@@ -96,6 +96,7 @@ function attachOpenGalleryEventListeners() {
   modalGalleryItem.forEach((item) => {
     item.onclick = () => {
       updateModal(galleries.find((g) => g.name === item.dataset.gallery));
+      modalContainer.classList.add("active");
       modal.openModal();
     };
   });
