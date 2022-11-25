@@ -11,6 +11,10 @@
   color: currentColor;
 }
 
+.header-hamburger-line {
+  background-color: currentColor;
+}
+
 .header-menu:first-child .header-link:nth-child(2) {
   &::after {
     width: 100%;
