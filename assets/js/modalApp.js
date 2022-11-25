@@ -1,7 +1,3 @@
-import createModal from "./createModal.js";
-
-createModal();
-
 const modalGalleryItem = document.querySelectorAll(`[data-modal="true"]`);
 const modalContainer = document.querySelector(".modal");
 const modalTrack = document.querySelector(".modal-slide");
@@ -19,6 +15,7 @@ let modalTitle;
 let modalText;
 let currentIndex;
 let lastIndex;
+let isMoving = false;
 
 function openModal() {
   modalContainer.classList.add("active");
@@ -92,6 +89,8 @@ function attachOpenGalleryEventListeners() {
 function attachArrowEventListeners() {
   modalBtn.forEach((btn) =>
     btn.addEventListener("click", (e) => {
+      if (isMoving) return;
+      isMoving = true;
       if (e.target.closest(".modal-btn-next")) {
         currentIndex++;
       } else {
@@ -105,6 +104,7 @@ function attachArrowEventListeners() {
 
 function attachTransitionEndListener() {
   modalTrack.addEventListener("transitionend", () => {
+    isMoving = false;
     if (currentIndex === lastIndex) {
       currentIndex = 0;
       modalTrack.style.transition = "none";

@@ -1,8 +1,7 @@
-export default function createModal() {
-  const modal = document.querySelector(".modal");
-  modal.insertAdjacentHTML(
-    "afterbegin",
-    `
+const modal = document.querySelector(".modal");
+modal.insertAdjacentHTML(
+  "afterbegin",
+  `
       <div class="modal-overlay">
         <div class="modal-container">
           <div class="modal-header">
@@ -42,7 +41,5 @@ export default function createModal() {
         </div>
       </div>
     `
-  );
-  document.body.appendChild(modal);
-  return modal;
-}
+);
+document.body.appendChild(modal);
