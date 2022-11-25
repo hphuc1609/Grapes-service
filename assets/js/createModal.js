@@ -1,6 +1,5 @@
 export default function createModal() {
-  const modal = document.createElement("div");
-  modal.classList.add("modal");
+  const modal = document.querySelector(".modal");
   modal.insertAdjacentHTML(
     "afterbegin",
     `
