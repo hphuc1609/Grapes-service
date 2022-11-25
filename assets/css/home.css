@@ -231,6 +231,7 @@
   transition: all 1s ease-in-out;
   transform: translateY(-100%);
   opacity: 0.8;
+  z-index: 999;
 }
 .modal.active {
   opacity: 1;
