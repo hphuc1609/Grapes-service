@@ -1,4 +1,4 @@
-const modalGalleryItem = document.querySelectorAll(`[data-modal="true"]`);
+const modalGalleryItem = document.querySelectorAll(".gallery-item");
 const modalContainer = document.querySelector(".modal");
 const modalTrack = document.querySelector(".modal-slide");
 const modalHeading = document.querySelector(".modal-heading");
