@@ -94,10 +94,10 @@ function updateModal(gallery) {
 // event listeners
 function attachOpenGalleryEventListeners() {
   modalGalleryItem.forEach((item) => {
-    item.addEventListener("click", () => {
+    item.onclick = () => {
       updateModal(galleries.find((g) => g.name === item.dataset.gallery));
       modal.openModal();
-    });
+    };
   });
 }
 
