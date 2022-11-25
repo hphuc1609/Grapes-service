@@ -96,7 +96,6 @@
 
 #home {
   background-color: #f8f8f8;
-  color: var(--white-color);
 }
 
 .bg-header {
@@ -157,7 +156,7 @@
 }
 @media screen and (max-width: 1023px) {
   .gallery-item {
-    height: 100%;
+    height: 200px;
   }
 }
 
