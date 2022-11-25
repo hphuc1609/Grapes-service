@@ -135,7 +135,7 @@ img {
   transition: var(--transition);
 }
 
-.menu-mobile.show {
+.menu-mobile.active {
   opacity: 1;
   visibility: visible;
 }

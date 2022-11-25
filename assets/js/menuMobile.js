@@ -2,16 +2,16 @@ const menuMobile = document.querySelector(".menu-mobile");
 const menuLinks = document.querySelectorAll(".menu-mobile__link");
 
 function openMenu() {
-  menuMobile.classList.add("show");
+  menuMobile.classList.add("active");
 }
 function closeMenu() {
-  menuMobile.classList.remove("show");
+  menuMobile.classList.remove("active");
 }
 
 menuLinks.forEach((link) => {
-  link.onclick = function () {
-    menuMobile.classList.remove("active");
+  link.onclick = () => {
     link.classList.add("active");
+    closeMenu();
   };
 });
 
