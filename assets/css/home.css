@@ -231,10 +231,12 @@
   transition: all 1s ease-in-out;
   transform: translateY(-100%);
   opacity: 0.8;
+  visibility: hidden;
   z-index: 999;
 }
 .modal.active {
   opacity: 1;
+  visibility: visible;
   transform: translateX(0);
 }
 .modal.active .modal-btn-prev {
@@ -246,8 +248,15 @@
   transform: translateX(0);
 }
 
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+}
+
 .modal-container {
+  width: 100%;
   max-width: 1130px;
+  height: 100%;
   margin: 0 auto;
   padding-top: 25px;
   padding: 15px;
@@ -419,8 +428,7 @@
 }
 
 .modal-desc {
-  margin-top: 180px;
-  margin-bottom: 180px;
+  margin: 180px 0;
   font-size: 2.4rem;
   line-height: 30px;
   text-align: center;
