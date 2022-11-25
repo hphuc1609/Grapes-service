@@ -8,6 +8,7 @@ const modalTrack = document.querySelector(".modal-slide");
 const modalHeading = document.querySelector(".modal-heading");
 const modalIntro = document.querySelector(".modal-intro");
 const modalBtn = document.querySelectorAll(".modal-btn");
+const modalBtnClose = document.querySelector(".modal-close");
 
 // all gallery shared
 let galleries;
@@ -18,35 +19,22 @@ let modalTitle;
 let modalText;
 let currentIndex;
 let lastIndex;
-let isMoving = false;
 
-class Modal {
-  constructor(modal) {
-    this.modal = modal;
-    this.attachModalEventListener();
-  }
-
-  openModal() {
-    this.modal.classList.add("active");
-    document.body.style.overflow = "hidden";
-    this.modal.style.overflow = "auto";
-  }
-
-  closeModal() {
-    isMoving = false;
-    this.modal.classList.remove("active");
-    document.body.style.overflow = "auto";
-    this.modal.style.overflow = "hidden";
-  }
-
-  attachModalEventListener() {
-    this.modal.addEventListener("click", (e) => {
-      e.target.classList.contains("modal-close") ? this.closeModal() : null;
-    });
-  }
+function openModal() {
+  modalContainer.classList.add("active");
+  document.body.style.overflow = "hidden";
+  modalContainer.style.overflow = "auto";
 }
 
-const modal = new Modal(modalContainer);
+function closeModal() {
+  modalContainer.classList.remove("active");
+  document.body.style.overflow = "auto";
+  modalContainer.style.overflow = "hidden";
+}
+
+modalBtnClose.addEventListener("click", () => {
+  closeModal();
+});
 
 function moveGalleryImage() {
   modalTrack.style.transform = `translateX(${currentIndex * -100}%)`;
@@ -96,7 +84,7 @@ function attachOpenGalleryEventListeners() {
   modalGalleryItem.forEach((item) => {
     item.onclick = () => {
       updateModal(galleries.find((g) => g.name === item.dataset.gallery));
-      modal.openModal();
+      openModal();
     };
   });
 }
@@ -104,8 +92,6 @@ function attachOpenGalleryEventListeners() {
 function attachArrowEventListeners() {
   modalBtn.forEach((btn) =>
     btn.addEventListener("click", (e) => {
-      if (isMoving) return;
-      isMoving = true;
       if (e.target.closest(".modal-btn-next")) {
         currentIndex++;
       } else {
@@ -119,7 +105,6 @@ function attachArrowEventListeners() {
 
 function attachTransitionEndListener() {
   modalTrack.addEventListener("transitionend", () => {
-    isMoving = false;
     if (currentIndex === lastIndex) {
       currentIndex = 0;
       modalTrack.style.transition = "none";
@@ -135,7 +120,7 @@ function attachTransitionEndListener() {
 
 window.addEventListener("keyup", (e) => {
   if (e.key === "Escape" && modalContainer.classList.contains("active")) {
-    modal.closeModal();
+    closeModal();
   }
 });
 
