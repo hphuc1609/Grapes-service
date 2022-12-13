@@ -20,5 +20,5 @@ This is a website for service design furniture restaurant, bar or hotel
 
 <br/>
 
-<p>I hope you like it, please give me 1 star ⭐ <br/>
+<p>If it give helpful, please give me 1 star ⭐ <br/>
 Thank you for visit my responsitory</p>
