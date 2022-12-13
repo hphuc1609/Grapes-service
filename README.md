@@ -14,11 +14,11 @@ This is a website for service design furniture restaurant, bar or hotel
 ![](https://user-images.githubusercontent.com/50391243/207362351-1915bfb9-486b-425b-af1a-2375806a2f90.png)
 
 
-## Technologíe
+## Technologies
 - HTML5/CSS3, JavaScript, Ajax
 - Building a database API
 
 <br/>
 
-<p>If it give helpful, please give me 1 star ⭐ <br/>
+<p>If you feel it helpful, please give me 1 star ⭐ <br/>
 Thank you for visit my responsitory</p>
