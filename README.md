@@ -16,7 +16,7 @@ This is a website for service design furniture restaurant, bar or hotel
 
 ## Technologies
 - HTML5/CSS3, JavaScript, Ajax
-- Building a database API
+- JSON Server
 
 <br/>
 
