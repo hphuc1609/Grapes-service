@@ -1,12 +1,7 @@
-# Restaurant Design
-This is a website for service design furniture restaurant, bar or hotel
-### Demo: https://restaurantdesign.vercel.app
+# Grapes Service
+Template website dedicated to showcasing exceptional furniture for restaurants, bars, hotels, and more.
 
-## Features
-- View projects
-- Studio
-- News
-- Contact
+### Demo: https://restaurantdesign.vercel.app
 
 ## Previews
 ![](https://user-images.githubusercontent.com/50391243/207361593-b311e535-09de-43b8-a82d-c4423251c0ae.png)
@@ -14,11 +9,6 @@ This is a website for service design furniture restaurant, bar or hotel
 ![](https://user-images.githubusercontent.com/50391243/207362351-1915bfb9-486b-425b-af1a-2375806a2f90.png)
 
 
-## Technologies
-- HTML5/CSS3, JavaScript, Ajax
-- JSON Server
-
-<br/>
-
-<p>If you feel it helpful, please give me 1 star ⭐ <br/>
-Thank you for visit my responsitory</p>
+### Support star
+<p>If you like it, please give me a star ⭐ <br/>
+Thank you for visiting my responsitory</p>
