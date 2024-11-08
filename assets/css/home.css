@@ -113,7 +113,7 @@
 
 .hero-banner {
   height: 100vh;
-  background: url("https://s7d2.scene7.com/is/image/ritzcarlton/vierz-d-bar-50788811?$XlargeViewport100pct$") no-repeat center/cover;
+  background: url("../assets/images/hero.jpeg") no-repeat center/cover;
 }
 @media screen and (max-width: 1023px) {
   .hero-banner {
