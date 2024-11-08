@@ -1,7 +1,7 @@
-# Grapes Service
-Template website dedicated to showcasing exceptional furniture for restaurants, bars, hotels, and more.
+# Grapes
+Template website to showcasing exceptional furniture for restaurants, bars, hotels, and more.
 
-### Demo: https://restaurantdesign.vercel.app
+###  Offical Link: https://grapes-service.vercel.app/
 
 ## Previews
 ![](https://user-images.githubusercontent.com/50391243/207361593-b311e535-09de-43b8-a82d-c4423251c0ae.png)
@@ -10,5 +10,4 @@ Template website dedicated to showcasing exceptional furniture for restaurants, 
 
 
 ### Support star
-<p>If you like it, please give me a star ⭐ <br/>
-Thank you for visiting my responsitory</p>
+<p>If you like this project, give me a 🌟 Thank you 💖
