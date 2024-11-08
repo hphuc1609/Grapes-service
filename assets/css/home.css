@@ -113,7 +113,7 @@
 
 .hero-banner {
   height: 100vh;
-  background: url("../assets/images/hero.jpeg") no-repeat center/cover;
+  background: url("./images/hero.jpeg") no-repeat center/cover;
 }
 @media screen and (max-width: 1023px) {
   .hero-banner {
